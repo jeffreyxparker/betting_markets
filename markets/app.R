@@ -7,10 +7,10 @@ library(DBI)
 
 con <- dbConnect(RMySQL::MySQL(), 
                  dbname = "hondademo", 
-                 host = "34.132.100.148", 
+                 host = "XX.XXXX.XXX.XXX", 
                  port = 3306,
-                 user = "root",
-                 password = "oqP4ee9xfaoELjri")
+                 user = "USERNAME",
+                 password = "XXXXXXXXXXXXXXXXX")
 
 start_time <- now()
 cash = 10
